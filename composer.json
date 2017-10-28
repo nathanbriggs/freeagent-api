@@ -1,0 +1,31 @@
+{
+    "name": "nathanbriggs/freeagent-api",
+    "description": "A simple PHP wrapper for FreeAgent API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Israel Sotomayor",
+            "email": "israel@contactzilla.com"
+        }
+    ],
+    "keywords": [
+      "client",
+      "api",
+      "freeagent"
+    ],
+    "autoload": {
+        "psr-4": {
+          "CloudManaged\\FreeAgent\\": "src/"
+        }
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/nathanbriggs/oauth2-freeagent.git"
+      }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+	"nathanbriggs/oauth2-freeagent": "dev-master"
+    }
+}
